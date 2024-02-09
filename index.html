@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+<body>
+    <header>
+        <Nav>
+            <ul>
+                <li> 
+                <a href="index.html">Inicio</a>
+                </li>
+            
+                <li><a href="Pages/servicios.html">Servicios</a> </li>
+                
+                <li><a href="#contact">Contacto</a></li>
+                
+                <li> <a href="https://wa.me/5491138909761" target="_blank"> Hablemos por WhatsApp</a></li>
+            </ul>
+
+        </Nav>
+
+    </header>
+    <!-- Enlace hipervinculo donde el usuario puede hacer clic y es redireccionado. el atributo se llama href-->
+
+    <!-- enlace absoluto | reirecion a una pagina o enlace externo-->
+        <a href="https://forjartuhabilidad.com/">Ver más</a>
+
+    <!--Enlace relativo | redirecciona al usuario a un nuevo archivo dentro de nuestro sitio o proyecto-->
+        <a href="pages/servicios.html">Servicios</a>
+    <!--Enlace interno| redirecciona a otra parte de la pagina o dentro del mismo archivo-->
+    <a href="#contact">Contacto</a>
+
+     <!--Enlace relanterno| redirecciona a otra archivo pero a su vez nos lleva a una seccion especifca de esa pagina a la que redireciono-->
+     <a href="pages/servicios.html#prueba">prueba</a>
+
+    <!-- atributo que me ayuda a que el enlace se haba en otra pantalla es TARGET y su valor es _blank-->
+    <a href="https://forjartuhabilidad.com/" target="_blank">Abre una pestaña nueva</a>
+
+    <!--Imagenes | carga src (donde esta la imagen guardada) | y alt (es el texto alternativo, la descripcion del imagen 1- describe la imagen por si se rompe 2- la descripcion del elemento html para los sistema de apoyo a no videntes 3-las palabras claves para el posicionamiento SEO, cada palabra dentro de la descripciones ayuda a que encuentren nuestra web)-->
+    <a href="http://www.forjartuhabilidad.com" target="_blank">
+        <img src="../lucasserrano.jpg" alt="Logo Forjar tu habilidad">
+    </a>
+
+<!-- videos internos , hay que agregar el atributo controls para que me permita usarlo-->
+    <video src="" controls></video>
+
+    <audio src="" controls></audio>
+
+    <!-- youtube | es un estracto de html de otra web
+    title que es un atributo al alt pero para videos o ¿ymapas-->
+    <iframe width=800" height="315" src="https://www.youtube.com/embed/36zx34BlQF8?si=eDCQ7H1VUZ-4Jft-" title="extensiones de visual studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <!-- google maps-->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.4012279379936!2d-58.614591723492914!3d-34.87126977167882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdbd0b40be695%3A0xad76f088a904b4ef!2sPolo%20Industrial%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1704239184173!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- playlist-->
+  <iframe style="border-radius:20px" src="https://open.spotify.com/embed/playlist/471awPkmS7R545B994Oga6?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</body>
+</html>
