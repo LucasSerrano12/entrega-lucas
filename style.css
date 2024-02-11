@@ -322,5 +322,10 @@ p
     width: 50px;
 }
 
+.table :hover
+{
+    background-color: beige;
+}
+
 
 
