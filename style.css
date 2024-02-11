@@ -73,7 +73,7 @@ nav ul
     margin: auto;
    
     list-style-type: none;
-    background-color: #102222;
+    background-color: black;
    
 }
 nav li
@@ -125,7 +125,7 @@ nav ul a:hover
 
 .footer
 {
-  background-color: #102222;
+  background-color: black;
   color: aliceblue;
 
   
