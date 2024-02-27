@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Import Header, Main, and Footer */
 body {
   background-color: rgb(213, 215, 218);
@@ -196,7 +197,7 @@ p {
 }
 
 .footer p {
-  padding: 7px;
+  padding: 10px;
   margin-bottom: 0;
 }
 
@@ -206,7 +207,6 @@ p {
 
 .footerproductos p {
   padding: 20px;
-  bottom: 0;
 }
 
 /* Global Styles */
@@ -220,6 +220,28 @@ p {
 
 body {
   background-color: rgb(213, 215, 218);
+}
+
+/* Media query para pantallas móviles */
+@media only screen and (max-width: 768px) {
+  .parrafo1,
+  .parrafo2,
+  .parrafo3 {
+    flex-direction: column;
+  }
+  .parrafo1 img,
+  .parrafo2 img,
+  .parrafo3 img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 5px solid rgb(88, 87, 86);
+  }
+  .video1,
+  .video2,
+  .video3 {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
