@@ -1,0 +1,17 @@
+/* Import Header, Main, and Footer */
+@import '../components/header';
+@import '../components/section';
+@import '../components/footer';
+
+/* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(213, 215, 218);
+}
