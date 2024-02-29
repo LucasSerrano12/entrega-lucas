@@ -1,4 +1,10 @@
-body {
+echo "# New-Proyecto" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LucasSerrano12/New-Proyecto.git
+git push -u origin mainbody {
   background-color: rgb(213, 215, 218);
 }
 
